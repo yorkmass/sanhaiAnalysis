@@ -8,7 +8,7 @@ from tencentcloud.nlp.v20190408 import nlp_client, models
 
 def nlpEmotion(data):
     try:
-        cred = credential.Credential("AKIDVp23tXPLSSN7f2nJG4iIgssiMo36cc4K", "CC0fKo6C5pmokYzHNH1c1EF4lEVfeQ0O")
+        cred = credential.Credential("密钥key", "密钥value")
         httpProfile = HttpProfile()
         httpProfile.endpoint = "nlp.tencentcloudapi.com"
 
